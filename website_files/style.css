@@ -1,0 +1,113 @@
+/* YOUR CUSTOM STYLES */
+
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.flex-center {
+    color: #fff;
+}
+
+
+html,
+body,
+
+.view {
+    height:100%;
+    background: url("./website_files/me_london.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.view2 { 
+
+    background: url("img/test.JPG")no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fafafa;
+}
+.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+#home {
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.overlay_pub {
+    background: url("../img/N5291_pub.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: white;
+
+}
+
+
+.full-bg-img_pub {
+  height: 100%;
+  width: 100%;
+  position: static;
+  overflow: hidden;
+  top: 10;
+  left: 0;
+}
+
+tr {
+    vertical-align: top;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
