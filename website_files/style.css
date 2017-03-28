@@ -111,3 +111,9 @@ tr {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
+
+img.align-center {
+  display: block;
+  margin: 0px auto;}
+  img.small{width:75px}
+  
